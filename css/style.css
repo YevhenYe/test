@@ -56,8 +56,64 @@ button {
 .container {
     min-width: 320px;
     max-width: 375px;
-    padding: 16px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
 }
 
 .mobile-menu {
@@ -83,7 +139,6 @@ button {
     display: flex;
     justify-content: space-between;
     border: none;
-    color: #055545;
 }
 
 .logo-mobile {
@@ -116,7 +171,7 @@ button {
 }
 
 .menu-link {
-    background-color: #003d36;
+    background: #003d36;
     width: 91px;
     height: 40px;
     border-radius: 8px;
